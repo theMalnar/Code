@@ -96,6 +96,10 @@ a.project1-button {
     color: #021428;
 
    }
+
+a.project1-button:hover {
+    background-color: lightgreen;
+}
   
  div#project2{
     margin-left: 1201px;
@@ -121,6 +125,10 @@ a.project2-button {
 
 
 }
+
+a.project2-button:hover {
+    background-color: lightgreen;
+}
 div#project3 {
     margin-left: 1201px;
     position: absolute;
@@ -145,6 +153,9 @@ a.project3-button {
 
 }
    
+a.project3-button:hover {
+    background-color: lightgreen;
+}
 
 section#project2 {
     margin-top: 100px;
@@ -159,12 +170,60 @@ section#project3 {
 /* about page */
 
 img#about-image {
-    margin-left: 420px;
+    margin-left: 399px;
 
 
 }
 
+/* Contact Page */
 
+form {
+    margin-left: 399px;
+
+}
+
+.form-control {
+    display: block;
+    width: 40%;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.btn-primary {
+    color: black;
+    background-color: white;
+    border-color: black;
+    padding: 20px;
+
+}
+
+.btn-primary:hover {
+    color: black;
+    background-color: lightgreen;
+    border-color: lightgreen;
+
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid black;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
 
 
 
