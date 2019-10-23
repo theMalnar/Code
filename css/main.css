@@ -49,20 +49,7 @@ nav {
     
     }
 
-   footer {
-
-    margin-top: 200px;
-    background: white;   
-    width: 100%;
-    height: 215px;
-    color: black;    
-   }
-
-   p#footer-text {
-    line-height: 13;
-    text-align: center;
-
-   }
+   
 
    section#paragraph {
     margin: 100px;
@@ -168,3 +155,32 @@ section#project3 {
     margin-top: 100px;
 }
 
+
+/* about page */
+
+img#about-image {
+    margin-left: 420px;
+
+
+}
+
+
+
+
+
+/*footer*/
+
+footer {
+
+    margin-top: 200px;
+    background: white;   
+    width: 100%;
+    height: 215px;
+    color: black;    
+   }
+
+   p#footer-text {
+    line-height: 13;
+    text-align: center;
+
+   }
