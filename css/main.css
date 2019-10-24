@@ -62,12 +62,18 @@ nav {
     color: black;
 
    }
+h3.mainHead {
+    color: lightgreen;
+
+}
+   
 
    /*portfolio page*/
 
 
    img#project1-image, img#project2-image, img#project3-image {
     margin-left: 401px;
+    border: #495057;
 
 
    }
@@ -82,7 +88,15 @@ div#project1 {
 
    }
 
-   
+   .main {
+       color: black;
+       margin-left: 45%;
+       font-size: 30px;
+   }
+
+   .main:hover {
+       color: lightgreen;
+   }
 
 a.project1-button {
     width: 100px;
